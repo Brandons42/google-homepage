@@ -1,0 +1,49 @@
+nav {
+  height: 30px;
+}
+nav a{
+  text-align: right;
+  float: right;
+  display: inline;
+  margin: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+nav.nav: hover {
+  color: gray;
+  text-decoration: underline;
+}
+table {
+  display: inline;
+  text-decoration:
+}
+nav td {
+  background-color: gray;
+  border: 0;
+  width: 2px;
+}
+nav tr, nav td {
+  height: 2px;
+}
+#bottomleft {
+}
+#bottomright {
+  text-align: right;
+}
+#signin {
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 5px;
+  border: 2px solid blue;
+  height: 20px;
+}
+#center {
+  text-align: center;
+  margin-top: 150px;
+  display: block;
+}
+#center img {
+  height: 96px;
+  width: 284px;
+}
