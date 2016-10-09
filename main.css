@@ -76,8 +76,8 @@ footer {
   display: block;
 }
 #center img {
-  height: 96px;
-  width: 284px;
+  width: 189px;
+  height: 64px;
 }
 @media screen and (min-width: 450px) {
   nav {
@@ -85,5 +85,9 @@ footer {
   }
   nav a {
     margin: 8px;
+  }
+  #center img {
+    height: 96px;
+    width: 284px;
   }
 }
