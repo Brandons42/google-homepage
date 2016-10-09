@@ -1,12 +1,16 @@
+* {
+  font-family: arial, sans-serif;
+}
 nav {
-  height: 30px;
+  height: 8%;
+  margin: 4%;
 }
 nav a{
   text-align: right;
   float: right;
   display: inline;
-  margin: 10px;
-  font-size: 15px;
+  margin: 2%;
+  font-size: 13px;
   text-decoration: none;
 }
 nav.nav: hover {
@@ -15,15 +19,15 @@ nav.nav: hover {
 }
 table {
   display: inline;
-  text-decoration:
+  text-decoration: none;
+  empty-cells: show;
+  line-height: 2px;
 }
 nav td {
   background-color: gray;
   border: 0;
   width: 2px;
-}
-nav tr, nav td {
-  height: 2px;
+
 }
 #bottomleft {
 }
