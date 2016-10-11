@@ -53,23 +53,6 @@ nav a button:active {
   box-shadow: inset 0 3px #000099, 0 3px #d9d9d9;
   outline: none;
 }
-footer {
-  display: inline;
-}
-#left {
-  position: relative;
-  top: 92%;
-  width: 50%;
-  height: 8%;
-}
-#right {
-  text-align: right;
-  position: relative;
-  top: 92%;
-  left: 50%;
-  width: 50%;
-  height: 8%;
-}
 #center {
   text-align: center;
   margin-top: 100px;
@@ -87,6 +70,43 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 25px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png") right no-repeat;
+  background-size: 9.15px 13px;
+  background-origin: content-box;
+  margin-bottom: -15px;
+}
+#center a button {
+  background-color: #f2f2f2;
+  color: #666666;
+  font-size: 8px;
+  border: none;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 80px;
+  height: 27.5px;
+}
+#center a button:hover {
+  border: 1px solid #A6A6A6;
+  color: black;
+}
+#center a button:active {
+  border: 1px solid #0066ff;
+}
+footer {
+  display: inline;
+}
+#left, #right {
+  width: 50%;
+  height: 8%;
+  position: relative;
+  top: 92%;
+}
+#left {
+  left: 0;
+}
+#right {
+  text-align: right;
+  right: 0;
 }
 @media screen and (min-width: 450px) {
   nav {
@@ -103,8 +123,24 @@ footer {
     width: 284px;
   }
   #center form input {
-    width: 600px;
+    width: 400px;
     height: 35px;
     margin-top: 40px;
+    background-size: 14px 20px;
+  }
+  #center a button {
+    width: 100px;
+    height: 35px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #center form input {
+    width: 600px;
+  }
+  #center a button {
+    width: 135px;
+    font-size: 13px;
   }
 }
